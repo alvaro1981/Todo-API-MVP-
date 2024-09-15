@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".view.TodoFragment">
+    <TextView
+        android:id="@+id/tvFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:text="Hello World,Fragment Todo"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="italic"/>
+</androidx.cardview.widget.CardView>
